@@ -1,0 +1,10 @@
+IDOR-System/
+│
+├── backend/
+│   ├── database.py       # Sets up users and sensitive records
+│   ├── vulnerable_api.py # The FastAPI server with the IDOR flaw
+│
+├── attacker/
+│   ├── idor_scanner.py   # The automated exploit script
+│
+└── main.py               # Launcher script to start the API
